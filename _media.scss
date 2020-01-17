@@ -1,0 +1,252 @@
+@mixin media-block-moving($height: 0, $width: 0, $marginTop: 0, $marginLeft: 0){
+    height: $height;
+    width: $width;
+    margin-top: $marginTop;
+    margin-left: $marginLeft;  
+}
+
+@media screen and (max-width: 800px){
+    .header {
+        background-color: yellow;
+    }
+    .instagram {
+        background-color: orange;
+    }
+    .first-section__main {
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .wrapper{
+        width: 375px;
+    }
+    
+   .first-section{
+       height: 533px;
+
+       &__header{
+        height: 57px;
+
+        &_content{
+            justify-content: space-between;
+
+            &_nav, &_btn{
+                display: none;
+            }
+
+            &_ic{
+                @include media-block-moving(10px, 176px, 23px, 4.8%);
+            }
+
+            &_phone{
+                margin-right: 4.8%;
+                @include media-block-moving(12px, 107px, 23px, );
+            }
+           }
+        }
+
+        &__sidebar, &__scroll-down{
+            display: none;
+        }
+
+        &__main{
+            @include media-block-moving(476px, 375px, 0, 0);
+
+            &_content{
+                margin: 0 auto;
+                width: 339px;
+                margin-left: 4.8%;
+                margin-top: 85px;
+
+                &_caption{
+                    @include media-block-moving(60px, 339px, 0, 0);
+                    margin-bottom: 15px;
+                }
+                &_sign{
+                    @include media-block-moving(94px, 339px, 0, 0);
+                    margin-bottom: 0;
+                }
+
+                &_btn-calc-the-cost, &_btn-sub-ur-app{
+                    @include media-block-moving(51px, 339px, 0, 0);
+                    border: 1px solid red;
+                    background: none;
+                }
+                &_btn-calc-the-cost{
+                    margin-top: 32px;
+                    margin-bottom: 26px; 
+                }
+            }
+        }
+   }
+
+   .second-section{
+        height: 1048px;
+
+       &__navbar, &__picture-one, &__slider{
+           display: none;
+       }
+
+       &__completed-projects, &__video, &__online-control, &__picture-two{
+           margin: 0;
+       }
+
+       &__completed-projects{
+           @include media-block-moving(66px, 253px, 36px, 16.27%);
+       }
+
+       &__text{
+           @include media-block-moving(86px, 311px, 124px, 8.53%);
+       }
+
+       &__list{
+            @include media-block-moving(146px, 341px, 524px, 4.8%);
+        }
+
+        &__online-control{
+            @include media-block-moving(74px, 224px, 727px, 20.27%);
+        }
+
+       &__video{
+           @include media-block-moving(207px, 340px, 841px, 4.8%);
+       }
+
+       
+
+       &__picture-two{
+            @include media-block-moving(242px, 340px, 246px, 4.8%);
+       }
+   }
+
+   .third-section{
+
+    height: 2535px;
+
+    &__text{
+        @include media-block-moving(129px, 340px, 51px, 4.8%);
+    }
+
+    &__login{
+        background-color: red;
+        @include media-block-moving(311px, 340px, 219px, 4.8%);
+    }
+
+    &__type-of-repair{
+        @include media-block-moving(71px, 257px, 588px, 15.2%);
+    }
+
+    &__prices{
+        @include media-block-moving(1570px, 340px, 699px, 4.8%);
+        flex-direction: column;
+
+        &_900, &_1800, &_4000{
+            @include media-block-moving(484px, 340px, 0, 0);
+        }
+    }
+
+    &__advantages-request{
+        display: none;
+    }
+   }
+
+   .fourth-section{
+
+    height: 121px;
+
+    &__wildest-fantastic{
+        @include media-block-moving(66px, 340px, -211px, 4.8%);
+    }
+
+    &__pic-2, &__pic-3, &__pic-4, &__list{
+        display: none;
+    }
+
+    &__pic-1{
+        @include media-block-moving(242px, 340px, -121px, 4.8%);
+    }
+   }
+
+   .fifth-section{
+
+    height: 221px;
+
+    &__design-project{
+        @include media-block-moving(70px, 257px, 52px, 15.7%);
+    }
+
+    &__text{
+        @include media-block-moving(76px, 334px, 145px, 4.8%);
+    }
+
+   }
+
+   .sixth-section{
+
+        height: 3251px;
+
+        &__prices{
+            @include media-block-moving(1507px, 339px, 39px, 4.8%);
+            flex-direction: column;
+
+            &_150{
+                height: 420px;
+                width: 339px;
+            }
+
+            &_400{
+                height: 484px;
+                width: 339px;
+            }
+
+            &_900{
+                height: 484px;
+                width: 339px;
+            }
+        }
+
+        &__content{
+            display: none;
+        }
+
+        &__our-team{
+            @include media-block-moving(133px, 339px, 1622px, 4.8%)
+        }
+
+        &__teammates{
+            @include media-block-moving(1455px, 339px, 1796px, 4.8%);
+            flex-direction: column;
+            &_left, &_mid, &_right{
+                height: 449px;
+                width: 339px;
+            }
+        }
+   }
+
+   .seventh-section{
+       display: none;
+   }
+
+   .eighth-section{
+
+        height: 1087px;
+
+        &__have-a-question{
+            @include media-block-moving(497px, 339px, 76px, 4.8%);
+        }
+
+        &__map{
+            @include media-block-moving(255px, 339px, 619px, 4.8%);
+        }
+
+        &__address-and-phone{
+            @include media-block-moving(133px, 339px, 916px, 4.8%);
+        }
+   }
+
+   footer{
+        display: none;
+   }
+   
+}

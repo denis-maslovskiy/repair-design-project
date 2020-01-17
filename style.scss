@@ -1,0 +1,358 @@
+@mixin block-moving ($height, $width, $bgColor, $marginTop, $marginLeft){
+    height: $height;
+    width: $width;
+    background-color: $bgColor; 
+    position: absolute;
+    margin-top: $marginTop;
+    margin-left: $marginLeft;  
+}
+
+html {
+    overflow-x: hidden; 
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.first-section {
+    background-color: black;
+    height: 838px;
+    
+    &__main {
+        height: 710px;
+        width: 1344px;
+        background-color: lightblue;
+        margin-left: 6.7%;
+
+        &_content {
+            position: absolute;
+            margin-top: 194px;
+            margin-left: 60px;
+            &_caption {
+                width: 677px;
+                height: 105px;
+                background-color: chocolate;
+                margin-bottom: 19px;
+            }
+    
+            &_sign {
+                width: 504px;
+                height: 89px;
+                background-color: greenyellow;
+                margin-bottom: 40px;
+            }
+    
+            &_btn-calc-the-cost, &_btn-sub-ur-app{
+                width: 207px;
+                height: 51px;
+                border: 1px solid red;
+                background: none;
+            }   
+        }
+    }
+
+    &__header {
+        height: 80px;
+        background-color: rgb(58, 57, 57);
+
+        &_content {
+            display: flex;
+
+            &_ic, &_nav, &_phone, &_btn{
+                height: 10px;
+                margin-top: 37px;
+                background-color: #fff;
+            }
+
+            &_ic{
+                width: 180px;
+                margin-left: 6.7%;
+            }
+
+            &_nav{
+                width: 580px;
+                margin-left: 97px;
+            }
+
+            &_phone{
+                width: 119px;
+                height: 16px;
+                margin-left: 95px;
+            }
+
+            &_btn{
+                width: 161px;
+                height: 37px;
+                margin-left: 45px;
+                margin-top: 24px;
+            }
+        }
+    }
+
+    &__sidebar{
+        background-color: red;
+        width: 97px;
+        position: absolute;
+        top: 80px;
+        height: 710px;
+
+        &_text {
+            transform: rotate(90deg);
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-top: 300px;
+        }
+    }
+
+    // &__instagram{
+    //     width: 96px;
+    //     height: 790px;
+    //     background-color: black;
+    // }
+
+    &__scroll-down{
+        width: 247px;
+        height: 97px;
+        background-color: sienna;
+        position: relative;
+        top: -49px;
+    }
+}
+
+.second-section {
+    height: 1026px;
+    background-color: coral;
+
+    &__navbar {
+        height: 24px;
+        width: 623px;
+        background-color: lightblue;
+        position: absolute;
+        margin-left: 41.18%;
+        margin-top: 58px;
+    }
+
+    &__completed-projects {
+        height: 66px;
+        width: 253px;
+        background-color: grey;
+        position: absolute;
+        margin-top: 127px;
+        margin-left: 7%;
+    }
+
+    &__text{
+        @include block-moving(86px, 442px, black, 228px, 7%)
+    }
+
+    &__list{
+        @include block-moving(162px, 442px, green, 365px, 7%)
+    }
+
+    &__slider{
+        @include block-moving(13.28px, 206px, blue, 598px, 7%)
+    }
+
+    &__picture-one {
+        height: 482px;
+        width: 679px;
+        background-color: lightpink;
+        position: absolute;
+        margin-left: 41.18%;
+        margin-top: 127px;
+    }
+
+    &__picture-two {
+        height: 482px;
+        width: 679px;
+        background-color: lightcyan;
+        position: absolute;
+        margin-top: 127px;
+        margin-left: 89.79%;
+    }
+
+    &__online-control {
+        height: 67px;
+        width: 196px;
+        background-color: aquamarine;
+        position: absolute;
+        margin-top: 701px;
+        margin-left: 43.26%;
+    }
+
+    &__video {
+        width: 817px;
+        height: 434px;
+        background-color: whitesmoke;
+        position: absolute;
+        margin-left: 21.597%;
+        margin-top: 799px;
+    }
+}
+
+.third-section  {
+    height: 2576px;
+    background-color: black;
+
+    &__text {
+        width: 681px;
+        height: 131px;
+        background-color: lightgray;
+        position: absolute;
+        margin-top: 306px;
+        margin-left: 26.32%;
+    }
+
+    &__login {
+        @include block-moving(51px, 769px, white, 529px, 23.26%);
+    }
+
+    &__type-of-repair {
+        @include block-moving(67px, 257px, green, 779px, 40.9%);
+    }
+
+    &__prices {
+        @include block-moving(608px,1236px, lightpink, 877px, 7.08%);
+        display: flex;
+        justify-content: space-between;
+        &_900, &_1800, &_4000{
+            height: 608px;
+            width: 392px;
+            background-color: rgb(10, 100, 236);
+        }
+    }
+
+    &__advantages-request {
+        @include block-moving(725px, 1643px, grey, 1609px, -21.458%);
+    }
+}
+
+.fourth-section {
+    height: 864px;
+    background-color: white;
+
+    &__wildest-fantastic{
+        @include block-moving(66px, 411px, orange, 138px, 6.875%);
+    }
+    &__list{
+        @include block-moving(516px, 299px, brown, 250px, 6.875%)
+    }
+    &__pic-1{
+        @include block-moving(558px, 254px, purple, -41px, 40.76%)
+    }
+    &__pic-2{
+        @include block-moving(350px, 354px, red, 555px, 40.76%)
+    } 
+    &__pic-3{
+        @include block-moving(275px, 354px, yellow, -113px, 68.33%)
+    } 
+    &__pic-4{
+        @include block-moving(625px, 354px, lightblue, 199px, 68.33%)
+    }  
+}
+
+.fifth-section {
+    height: 621px;
+    background-color: black;
+
+    &__design-project{
+        @include block-moving(67px, 257px, white, 154px, 40.76%)
+    }
+
+    &__text{
+        @include block-moving(57px, 763px, grey, 245px, 24.47%)
+    }
+}
+
+.sixth-section {
+    height: 1616px;
+    background-color: darkgrey;
+
+    &__prices{
+        @include block-moving(735px, 1236px, yellow, -280px, 7%);
+        display: flex;
+        justify-content: space-between;
+
+        &_150{
+            height: 531px;
+            width: 392px;
+            background-color: red;
+        }
+        &_400{
+            height: 607px;
+            width: 392px;
+            background-color: orange;
+        }
+        &_900{
+            height: 735px;
+            width: 392px;
+            background-color: orchid;
+            z-index: 2;
+        }
+    }
+    
+    &__content{
+        @include block-moving(686px, 1236px, blue, 428px, 7%)
+    }
+
+    &__our-team{
+        @include block-moving(148px, 476px, coral, 1209px, 33.47%)
+    }
+
+    &__teammates{
+        @include block-moving(504px, 1063px, lightblue, 1396px, 11.875%);
+        display: flex;
+        justify-content: space-between;
+
+        &_left{
+            height: 449px;
+            width: 307px;
+            background-color: green;
+        }
+        &_mid{
+            height: 449px;
+            width: 307px;
+            background-color: lightgreen;
+        }
+        &_right{
+            height: 449px;
+            width: 307px;
+            background-color: darkgreen;
+        }
+    }
+}
+
+.seventh-section {
+    height: 1523px;
+    background-color: black;
+
+    &__clients-block{
+        @include block-moving(642px, 1236px, orange, 527px, 7%)
+    }
+}
+
+.eighth-section{
+    height: 953px;
+    background-color: grey;
+
+    &__have-a-question{
+        @include block-moving(445px, 883px, brown, -223px, 20.57%)
+    }
+
+    &__address-and-phone{
+        @include block-moving(199px, 589px, darkblue, 275px, 29.44%)
+    }
+
+    &__map{
+        @include block-moving(465px, 925px, yellow, 423px, 17.64%)
+    }
+}
+
+footer {
+    height: 130px;
+    background-color: lightblue;
+}
+
+@import '_media';

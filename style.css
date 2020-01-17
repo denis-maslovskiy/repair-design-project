@@ -1,0 +1,763 @@
+html {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.first-section {
+  background-color: black;
+  height: 838px;
+}
+
+.first-section__main {
+  height: 710px;
+  width: 1344px;
+  background-color: lightblue;
+  margin-left: 6.7%;
+}
+
+.first-section__main_content {
+  position: absolute;
+  margin-top: 194px;
+  margin-left: 60px;
+}
+
+.first-section__main_content_caption {
+  width: 677px;
+  height: 105px;
+  background-color: chocolate;
+  margin-bottom: 19px;
+}
+
+.first-section__main_content_sign {
+  width: 504px;
+  height: 89px;
+  background-color: greenyellow;
+  margin-bottom: 40px;
+}
+
+.first-section__main_content_btn-calc-the-cost, .first-section__main_content_btn-sub-ur-app {
+  width: 207px;
+  height: 51px;
+  border: 1px solid red;
+  background: none;
+}
+
+.first-section__header {
+  height: 80px;
+  background-color: #3a3939;
+}
+
+.first-section__header_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-section__header_content_ic, .first-section__header_content_nav, .first-section__header_content_phone, .first-section__header_content_btn {
+  height: 10px;
+  margin-top: 37px;
+  background-color: #fff;
+}
+
+.first-section__header_content_ic {
+  width: 180px;
+  margin-left: 6.7%;
+}
+
+.first-section__header_content_nav {
+  width: 580px;
+  margin-left: 97px;
+}
+
+.first-section__header_content_phone {
+  width: 119px;
+  height: 16px;
+  margin-left: 95px;
+}
+
+.first-section__header_content_btn {
+  width: 161px;
+  height: 37px;
+  margin-left: 45px;
+  margin-top: 24px;
+}
+
+.first-section__sidebar {
+  background-color: red;
+  width: 97px;
+  position: absolute;
+  top: 80px;
+  height: 710px;
+}
+
+.first-section__sidebar_text {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 300px;
+}
+
+.first-section__scroll-down {
+  width: 247px;
+  height: 97px;
+  background-color: sienna;
+  position: relative;
+  top: -49px;
+}
+
+.second-section {
+  height: 1026px;
+  background-color: coral;
+}
+
+.second-section__navbar {
+  height: 24px;
+  width: 623px;
+  background-color: lightblue;
+  position: absolute;
+  margin-left: 41.18%;
+  margin-top: 58px;
+}
+
+.second-section__completed-projects {
+  height: 66px;
+  width: 253px;
+  background-color: grey;
+  position: absolute;
+  margin-top: 127px;
+  margin-left: 7%;
+}
+
+.second-section__text {
+  height: 86px;
+  width: 442px;
+  background-color: black;
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 7%;
+}
+
+.second-section__list {
+  height: 162px;
+  width: 442px;
+  background-color: green;
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 7%;
+}
+
+.second-section__slider {
+  height: 13.28px;
+  width: 206px;
+  background-color: blue;
+  position: absolute;
+  margin-top: 598px;
+  margin-left: 7%;
+}
+
+.second-section__picture-one {
+  height: 482px;
+  width: 679px;
+  background-color: lightpink;
+  position: absolute;
+  margin-left: 41.18%;
+  margin-top: 127px;
+}
+
+.second-section__picture-two {
+  height: 482px;
+  width: 679px;
+  background-color: lightcyan;
+  position: absolute;
+  margin-top: 127px;
+  margin-left: 89.79%;
+}
+
+.second-section__online-control {
+  height: 67px;
+  width: 196px;
+  background-color: aquamarine;
+  position: absolute;
+  margin-top: 701px;
+  margin-left: 43.26%;
+}
+
+.second-section__video {
+  width: 817px;
+  height: 434px;
+  background-color: whitesmoke;
+  position: absolute;
+  margin-left: 21.597%;
+  margin-top: 799px;
+}
+
+.third-section {
+  height: 2576px;
+  background-color: black;
+}
+
+.third-section__text {
+  width: 681px;
+  height: 131px;
+  background-color: lightgray;
+  position: absolute;
+  margin-top: 306px;
+  margin-left: 26.32%;
+}
+
+.third-section__login {
+  height: 51px;
+  width: 769px;
+  background-color: white;
+  position: absolute;
+  margin-top: 529px;
+  margin-left: 23.26%;
+}
+
+.third-section__type-of-repair {
+  height: 67px;
+  width: 257px;
+  background-color: green;
+  position: absolute;
+  margin-top: 779px;
+  margin-left: 40.9%;
+}
+
+.third-section__prices {
+  height: 608px;
+  width: 1236px;
+  background-color: lightpink;
+  position: absolute;
+  margin-top: 877px;
+  margin-left: 7.08%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.third-section__prices_900, .third-section__prices_1800, .third-section__prices_4000 {
+  height: 608px;
+  width: 392px;
+  background-color: #0a64ec;
+}
+
+.third-section__advantages-request {
+  height: 725px;
+  width: 1643px;
+  background-color: grey;
+  position: absolute;
+  margin-top: 1609px;
+  margin-left: -21.458%;
+}
+
+.fourth-section {
+  height: 864px;
+  background-color: white;
+}
+
+.fourth-section__wildest-fantastic {
+  height: 66px;
+  width: 411px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 138px;
+  margin-left: 6.875%;
+}
+
+.fourth-section__list {
+  height: 516px;
+  width: 299px;
+  background-color: brown;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 6.875%;
+}
+
+.fourth-section__pic-1 {
+  height: 558px;
+  width: 254px;
+  background-color: purple;
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 40.76%;
+}
+
+.fourth-section__pic-2 {
+  height: 350px;
+  width: 354px;
+  background-color: red;
+  position: absolute;
+  margin-top: 555px;
+  margin-left: 40.76%;
+}
+
+.fourth-section__pic-3 {
+  height: 275px;
+  width: 354px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: -113px;
+  margin-left: 68.33%;
+}
+
+.fourth-section__pic-4 {
+  height: 625px;
+  width: 354px;
+  background-color: lightblue;
+  position: absolute;
+  margin-top: 199px;
+  margin-left: 68.33%;
+}
+
+.fifth-section {
+  height: 621px;
+  background-color: black;
+}
+
+.fifth-section__design-project {
+  height: 67px;
+  width: 257px;
+  background-color: white;
+  position: absolute;
+  margin-top: 154px;
+  margin-left: 40.76%;
+}
+
+.fifth-section__text {
+  height: 57px;
+  width: 763px;
+  background-color: grey;
+  position: absolute;
+  margin-top: 245px;
+  margin-left: 24.47%;
+}
+
+.sixth-section {
+  height: 1616px;
+  background-color: darkgrey;
+}
+
+.sixth-section__prices {
+  height: 735px;
+  width: 1236px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sixth-section__prices_150 {
+  height: 531px;
+  width: 392px;
+  background-color: red;
+}
+
+.sixth-section__prices_400 {
+  height: 607px;
+  width: 392px;
+  background-color: orange;
+}
+
+.sixth-section__prices_900 {
+  height: 735px;
+  width: 392px;
+  background-color: orchid;
+  z-index: 2;
+}
+
+.sixth-section__content {
+  height: 686px;
+  width: 1236px;
+  background-color: blue;
+  position: absolute;
+  margin-top: 428px;
+  margin-left: 7%;
+}
+
+.sixth-section__our-team {
+  height: 148px;
+  width: 476px;
+  background-color: coral;
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 33.47%;
+}
+
+.sixth-section__teammates {
+  height: 504px;
+  width: 1063px;
+  background-color: lightblue;
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 11.875%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sixth-section__teammates_left {
+  height: 449px;
+  width: 307px;
+  background-color: green;
+}
+
+.sixth-section__teammates_mid {
+  height: 449px;
+  width: 307px;
+  background-color: lightgreen;
+}
+
+.sixth-section__teammates_right {
+  height: 449px;
+  width: 307px;
+  background-color: darkgreen;
+}
+
+.seventh-section {
+  height: 1523px;
+  background-color: black;
+}
+
+.seventh-section__clients-block {
+  height: 642px;
+  width: 1236px;
+  background-color: orange;
+  position: absolute;
+  margin-top: 527px;
+  margin-left: 7%;
+}
+
+.eighth-section {
+  height: 953px;
+  background-color: grey;
+}
+
+.eighth-section__have-a-question {
+  height: 445px;
+  width: 883px;
+  background-color: brown;
+  position: absolute;
+  margin-top: -223px;
+  margin-left: 20.57%;
+}
+
+.eighth-section__address-and-phone {
+  height: 199px;
+  width: 589px;
+  background-color: darkblue;
+  position: absolute;
+  margin-top: 275px;
+  margin-left: 29.44%;
+}
+
+.eighth-section__map {
+  height: 465px;
+  width: 925px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 423px;
+  margin-left: 17.64%;
+}
+
+footer {
+  height: 130px;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    background-color: yellow;
+  }
+  .instagram {
+    background-color: orange;
+  }
+  .first-section__main {
+    background-color: purple;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+  }
+  .first-section {
+    height: 533px;
+  }
+  .first-section__header {
+    height: 57px;
+  }
+  .first-section__header_content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .first-section__header_content_nav, .first-section__header_content_btn {
+    display: none;
+  }
+  .first-section__header_content_ic {
+    height: 10px;
+    width: 176px;
+    margin-top: 23px;
+    margin-left: 4.8%;
+  }
+  .first-section__header_content_phone {
+    margin-right: 4.8%;
+    height: 12px;
+    width: 107px;
+    margin-top: 23px;
+    margin-left: 0;
+  }
+  .first-section__sidebar, .first-section__scroll-down {
+    display: none;
+  }
+  .first-section__main {
+    height: 476px;
+    width: 375px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .first-section__main_content {
+    margin: 0 auto;
+    width: 339px;
+    margin-left: 4.8%;
+    margin-top: 85px;
+  }
+  .first-section__main_content_caption {
+    height: 60px;
+    width: 339px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .first-section__main_content_sign {
+    height: 94px;
+    width: 339px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .first-section__main_content_btn-calc-the-cost, .first-section__main_content_btn-sub-ur-app {
+    height: 51px;
+    width: 339px;
+    margin-top: 0;
+    margin-left: 0;
+    border: 1px solid red;
+    background: none;
+  }
+  .first-section__main_content_btn-calc-the-cost {
+    margin-top: 32px;
+    margin-bottom: 26px;
+  }
+  .second-section {
+    height: 1048px;
+  }
+  .second-section__navbar, .second-section__picture-one, .second-section__slider {
+    display: none;
+  }
+  .second-section__completed-projects, .second-section__video, .second-section__online-control, .second-section__picture-two {
+    margin: 0;
+  }
+  .second-section__completed-projects {
+    height: 66px;
+    width: 253px;
+    margin-top: 36px;
+    margin-left: 16.27%;
+  }
+  .second-section__text {
+    height: 86px;
+    width: 311px;
+    margin-top: 124px;
+    margin-left: 8.53%;
+  }
+  .second-section__list {
+    height: 146px;
+    width: 341px;
+    margin-top: 524px;
+    margin-left: 4.8%;
+  }
+  .second-section__online-control {
+    height: 74px;
+    width: 224px;
+    margin-top: 727px;
+    margin-left: 20.27%;
+  }
+  .second-section__video {
+    height: 207px;
+    width: 340px;
+    margin-top: 841px;
+    margin-left: 4.8%;
+  }
+  .second-section__picture-two {
+    height: 242px;
+    width: 340px;
+    margin-top: 246px;
+    margin-left: 4.8%;
+  }
+  .third-section {
+    height: 2535px;
+  }
+  .third-section__text {
+    height: 129px;
+    width: 340px;
+    margin-top: 51px;
+    margin-left: 4.8%;
+  }
+  .third-section__login {
+    background-color: red;
+    height: 311px;
+    width: 340px;
+    margin-top: 219px;
+    margin-left: 4.8%;
+  }
+  .third-section__type-of-repair {
+    height: 71px;
+    width: 257px;
+    margin-top: 588px;
+    margin-left: 15.2%;
+  }
+  .third-section__prices {
+    height: 1570px;
+    width: 340px;
+    margin-top: 699px;
+    margin-left: 4.8%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .third-section__prices_900, .third-section__prices_1800, .third-section__prices_4000 {
+    height: 484px;
+    width: 340px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .third-section__advantages-request {
+    display: none;
+  }
+  .fourth-section {
+    height: 121px;
+  }
+  .fourth-section__wildest-fantastic {
+    height: 66px;
+    width: 340px;
+    margin-top: -211px;
+    margin-left: 4.8%;
+  }
+  .fourth-section__pic-2, .fourth-section__pic-3, .fourth-section__pic-4, .fourth-section__list {
+    display: none;
+  }
+  .fourth-section__pic-1 {
+    height: 242px;
+    width: 340px;
+    margin-top: -121px;
+    margin-left: 4.8%;
+  }
+  .fifth-section {
+    height: 221px;
+  }
+  .fifth-section__design-project {
+    height: 70px;
+    width: 257px;
+    margin-top: 52px;
+    margin-left: 15.7%;
+  }
+  .fifth-section__text {
+    height: 76px;
+    width: 334px;
+    margin-top: 145px;
+    margin-left: 4.8%;
+  }
+  .sixth-section {
+    height: 3251px;
+  }
+  .sixth-section__prices {
+    height: 1507px;
+    width: 339px;
+    margin-top: 39px;
+    margin-left: 4.8%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sixth-section__prices_150 {
+    height: 420px;
+    width: 339px;
+  }
+  .sixth-section__prices_400 {
+    height: 484px;
+    width: 339px;
+  }
+  .sixth-section__prices_900 {
+    height: 484px;
+    width: 339px;
+  }
+  .sixth-section__content {
+    display: none;
+  }
+  .sixth-section__our-team {
+    height: 133px;
+    width: 339px;
+    margin-top: 1622px;
+    margin-left: 4.8%;
+  }
+  .sixth-section__teammates {
+    height: 1455px;
+    width: 339px;
+    margin-top: 1796px;
+    margin-left: 4.8%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sixth-section__teammates_left, .sixth-section__teammates_mid, .sixth-section__teammates_right {
+    height: 449px;
+    width: 339px;
+  }
+  .seventh-section {
+    display: none;
+  }
+  .eighth-section {
+    height: 1087px;
+  }
+  .eighth-section__have-a-question {
+    height: 497px;
+    width: 339px;
+    margin-top: 76px;
+    margin-left: 4.8%;
+  }
+  .eighth-section__map {
+    height: 255px;
+    width: 339px;
+    margin-top: 619px;
+    margin-left: 4.8%;
+  }
+  .eighth-section__address-and-phone {
+    height: 133px;
+    width: 339px;
+    margin-top: 916px;
+    margin-left: 4.8%;
+  }
+  footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
